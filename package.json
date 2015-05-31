@@ -1,0 +1,9 @@
+{
+  "name": "dya-play",
+  "title": "Disable Youtube Autoplay",
+  "id": "jid1-ip0Dca2WrxcpuA",
+  "description": "Disables the Youtube autoplay feature without needing to log into your Google account.",
+  "author": "Bogdan Olar",
+  "license": "MPL 2.0",
+  "version": "0.1"
+}
