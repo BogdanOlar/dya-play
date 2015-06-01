@@ -14,15 +14,17 @@ if(window.onload) {
 function clickOnAutoplay(){
     var repetitiveClear = setInterval(
         function() {
+            console.log("Bump.")
             var autoplayCheckbox = document.getElementById('autoplay-checkbox');
             if (autoplayCheckbox != null) {
                 if (autoplayCheckbox.checked) {
                     autoplayCheckbox.click();
                 } else {
                     clearInterval(repetitiveClear);
+                    console.log("Exiting: checkbox already checked.")
                 }
             }
         }
-        , 3000
+        , 5000
     );
 };
